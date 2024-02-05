@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'home_page.dart';
-import 'login_page.dart'; // Bu dosyada LoginPage widget'ını tanımlayın
-import 'register_page.dart'; // Bu dosyada RegisterPage widget'ını tanımlayın
-import 'splash_page.dart'; // Bu dosyada SplashPage widget'ını tanımlayın
+import 'login_page.dart';
+import 'register_page.dart';
+import 'splash_page.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

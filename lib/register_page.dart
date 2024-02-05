@@ -57,7 +57,8 @@ class _RegisterPageState extends State<RegisterPage> {
                   lastDate: DateTime.now(),
                 );
                 if (picked != null) {
-                  _birthDateController.text = '${picked.day}/${picked.month}/${picked.year}';
+                  _birthDateController.text =
+                      '${picked.day}/${picked.month}/${picked.year}';
                 }
               },
               readOnly: true,
@@ -96,7 +97,7 @@ class _RegisterPageState extends State<RegisterPage> {
                     'birthDate': _birthDateController.text,
                     'hobbies': [],
                   });
-                  // Kayıt başarılı, giriş sayfasına yönlendir
+
                   Navigator.of(context).pop();
                 } on FirebaseAuthException catch (e) {
                   // Hata yönetimi

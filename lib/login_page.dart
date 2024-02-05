@@ -44,7 +44,7 @@ class _LoginPageState extends State<LoginPage> {
                     email: _emailController.text,
                     password: _passwordController.text,
                   );
-                  // Giriş başarılı, ana sayfaya yönlendir
+
                   Navigator.of(context).pushReplacementNamed('/home');
                 } catch (e) {
                   // Hata yönetimi
