@@ -1,16 +1,10 @@
-# hero_games_case
+# Flutter ile Firebase Kimlik Doğrulama Demosu
 
-A new Flutter project.
+Bu proje, bir Flutter uygulamasında Firebase Kimlik Doğrulama ve Cloud Firestore'un kullanımını gösterir. Kullanıcı kaydı, giriş yapma ve profil yönetimi özelliklerini içerir. Kullanıcılar, e-posta ve şifre kullanarak kayıt olabilir, giriş yapabilir, profil detaylarını görüntüleyebilir, hobilerini düzenleyebilir ve çıkış yapabilir.
 
-## Getting Started
+## Özellikler
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Kullanıcı Kaydı: E-posta ve şifre kullanarak kayıt olma.
+- Kullanıcı Girişi: E-posta ve şifre ile uygulamaya giriş yapma.
+- Profil Yönetimi: Kullanıcının adı, e-postası, biyografisi, doğum tarihi ve hobileri dahil olmak üzere profil detaylarını görüntüleme ve güncelleme.
+- Kalıcı Kimlik Doğrulama Durumu: Kullanıcılar zaten giriş yapmışsa otomatik olarak ana sayfaya yönlendirme.
